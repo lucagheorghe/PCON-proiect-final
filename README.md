@@ -30,14 +30,23 @@ BlackHole pentru macOS este un driver audio virtual open-source care permite rut
 ### Inițializarea plugin-ului MediaPipe for TouchDesigner
 Pentru a permite atât recoltarea de date cât și vehicularea acestora prin OSC, trebuie deschis inițial documentul **mediapipe-oscout-reactive.toe**. Recoltarea de date se va activa automat.
 ### Generarea sunetelor
-Pentru a începe generarea sunetelor trebuie deschis fișierul **sinteza_eno_p3_cl_sub_pipo_fingers_2.pd**. Odată ce DSP a fost activat, trebuie activat toggle-ul "Master play" pentru a activa synth-ul. În proximitatea acestui toggle se mai gasesc două bang-uri: unul activează randomizarea timpului de activarea a fiecărei note, iar celălat schimbă armonia notelor generate. Pentru a altera sunetul se va folosi mâna stângă iar efectele sunt dispuse astfel:
+Pentru a începe generarea sunetelor trebuie deschis fișierul **sinteza_eno_p3_cl_sub_pipo_fingers_2.pd**. Odată ce DSP a fost activat, trebuie activat toggle-ul "Master play" pentru a activa synth-ul. În proximitatea acestui toggle se mai gasesc două bang-uri: unul activează randomizarea timpului de activarea a fiecărei note, iar celălat schimbă armonia notelor generate. 
+![Screenshot 2024-06-05 004324](https://github.com/lucagheorghe/PCON-proiect-final/assets/93280965/98577997-fc1b-4f07-a49b-2d4738a5b6a3)
+
+Mâinile trebuie introduse în cadrul camerei de captură secvențial astfel: înâi stânga, apoi dreapta.
+Pentru a altera sunetul se va folosi mâna stângă iar efectele sunt dispuse astfel:
 - degetul mare: modulație în Amplitudine;
 - degetul arătător: ping-pong delay dreapta;
 - degetul mijlociu: ping-pong delay time;
 - degetul inelar: ping-pong delay stânga;
 - degetul mic: modulație în frecvență (momentan dezactivat, încă în stadiu experimental)
 În prezent, singurul scop al mâinii drepte este de a activa și dezactiva modificarea efectelor printr-o mișcare de pălmuire în jos. (un fel de edit mode)
+![Screenshot 2024-06-05 004817](https://github.com/lucagheorghe/PCON-proiect-final/assets/93280965/5323a6b8-d64d-43b5-b054-0f6559a65ded)
+
 Mai departe, pentru a permite audiția și totodată comunicarea sumei către TouchDesigner pentru a genera vizuale reactive, setarea de output audio din Pure Data trebuie făcută pe același driver ca cel de Audio Device In din TouchDesigner. Mai departe, vizualele reactive pot fi observate în TouchDesigner.
+![Screenshot 2024-06-05 004447](https://github.com/lucagheorghe/PCON-proiect-final/assets/93280965/73fcc56c-895c-412b-963a-a4a31f9372ca)
+![Screenshot 2024-06-05 004535](https://github.com/lucagheorghe/PCON-proiect-final/assets/93280965/37bc6ee5-1e86-44c6-b1dc-68d834b55323)
+
 ## (Istoric)
 
 (24-04) Dezvoltarea patch-ului generativ în TouchDesigner și experimentarea efectelor ce vor urma să fie implementate + dezvoltarea patch-ului de TouchDesigner ce recoltează date ale gesturilor.
