@@ -2,8 +2,7 @@
 Prin intermediul acestui proiect am experimentat cu conceptul de muzică generativă la un nivel amator. O serie de oscilatoare sunt activate, la diferite frecvențe, la variate intervale, aplicând peste acestea o serie de efecte a căror parametrii sunt determinați de gesticulații ale degetelor ce sunt recunoscute folosind TouchDesigner, respectiv modelul MediaPipe antrenat de Google. După ce sunetele sunt generate, iar acestea sunt modificate dinamic de efectele menționate anterior, suma este trimisă înapoi către TouchDesigner, generând pe baza acestora vizuale reactive. Vizualele nu au fost generate pe baza parametrilor preluați de plugin-ul MediaPipe, ci au fost generate pe baza sumei semnalului audio realizate în Pure Data și a fost trimisă către TouchDesigner folosind tool-ul ASIO Link Pro Tool. Alternativ, pentru MacOS, poate fi folosit BlackHole.
 
 #### **Mențiune**
-Github nu a permis încărcarea tuturor fișierelor necesare datorită dimensiunilor lor. Astfel, întreaga arhivă a fișierelor necesare rulării integrale a proiectului au fost încărcate la adresa:
-[Link text](https://drive.google.com/drive/folders/1d9RhZkud565UBXJyRiBKfEBCfW0GfrL5?usp=sharing)
+Github nu a permis încărcarea tuturor fișierelor necesare datorită dimensiunilor lor. Astfel, întreaga arhivă a fișierelor necesare rulării integrale a proiectului au fost încărcate la adresa link-ul de [Google Drive](https://drive.google.com/drive/folders/1d9RhZkud565UBXJyRiBKfEBCfW0GfrL5?usp=sharing)
 
 ## Instalare
 ### Pure Data
@@ -60,12 +59,12 @@ Mai departe, pentru a permite audiția și totodată comunicarea sumei către To
 (24-06) Finisarea proiectului și dezvoltarea rețelei de audio-video din TouchDesigner.
 
 ## (Link-uri)
-[Link text](https://puredata.info/downloads/Pd-L2Ork)
-[Link text](https://github.com/pd-externals/mrpeach)
-[Link text](https://derivative.ca/download)
-[Link text](https://github.com/torinmb/mediapipe-touchdesigner)
-[Link text](https://give.academy/downloads/2018/03/03/ODeusASIOLinkPro/)
-[Link text](https://existential.audio/blackhole/)
+[Pd-L2Ork](https://puredata.info/downloads/Pd-L2Ork)
+[MrPeach](https://github.com/pd-externals/mrpeach)
+[TouchDesigner](https://derivative.ca/download)
+[MediaPipe for TouchDesigner](https://github.com/torinmb/mediapipe-touchdesigner)
+[ASIO Link Pro Tool](https://give.academy/downloads/2018/03/03/ODeusASIOLinkPro/)
+[BlackHole](https://existential.audio/blackhole/)
 
 # Dezvoltarea proiectului
 
